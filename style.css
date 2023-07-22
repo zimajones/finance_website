@@ -1,0 +1,42 @@
+/*this is for the top of screen*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, sans-serif;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    min-height: 100vh; 
+}
+
+nav {
+    background-color: white;
+    color: black;
+}
+
+img {
+    width: 60px;
+    height: 30px;
+}
+
+.horizontal-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.horizontal-list li {
+    padding: 10px 20px;
+}
+
+.horizontal-list li a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.horizontal-list li a:hover {
+    text-decoration: underline;
+}
