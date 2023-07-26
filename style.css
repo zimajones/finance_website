@@ -1,42 +1,60 @@
-/*this is for the top of screen*/
+/*add font*/
 
-body {
-    margin: 0;
+/* Remove default list styling */
+.horizontal-container ul {
+    list-style: none;
     padding: 0;
-    font-family:Arial, sans-serif;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
-    min-height: 100vh; 
-}
-
-nav {
-    background-color: white;
-    color: black;
-}
-
-img {
-    width: 60px;
-    height: 30px;
-}
-
-.horizontal-list {
-    list-style-type: none;
     margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
 }
 
-.horizontal-list li {
-    padding: 10px 20px;
+/* Display list items horizontally */
+.horizontal-container ul li {
+    color: white;
+    display: inline-block;
+    margin-right: 15px; 
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+ 
 }
 
-.horizontal-list li a {
-    color: black;
+
+.horizontal-container ul li a {
     text-decoration: none;
-    text-align: center;
 }
 
-.horizontal-list li a:hover {
-    text-decoration: underline;
+
+
+
+/* Style the link on hover */
+.horizontal-container ul li a:hover {
+        border-bottom: 1px solid black;
+        padding-bottom: 3px;
+        transition: border-bottom 0.2s ease;
+        
 }
+
+
+
+/* Flexbox container */
+.horizontal-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; 
+    padding: 2px;
+    outline: 20px; 
+    padding-left: 100px;
+    padding-right: 100px;
+   
+}
+
+.zima-title {
+    color: black;
+    font-family: 'NeueHaasDisplayThin', sans-serif;
+    font-size: 30px;
+    padding-right: 15px;
+    font-weight: 100;
+}
+
+
