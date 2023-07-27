@@ -5,6 +5,7 @@
     list-style: none;
     padding: 0;
     margin: 0;
+ 
 }
 
 /* Display list items horizontally */
@@ -21,6 +22,7 @@
 
 .horizontal-container ul li a {
     text-decoration: none;
+    color: black;
 }
 
 
@@ -30,7 +32,7 @@
 .horizontal-container ul li a:hover {
         border-bottom: 1px solid black;
         padding-bottom: 3px;
-        transition: border-bottom 0.2s ease;
+        transition: border-bottom 1s ease;
         
 }
 
@@ -53,8 +55,182 @@
     color: black;
     font-family: 'NeueHaasDisplayThin', sans-serif;
     font-size: 30px;
-    padding-right: 15px;
+    text-align: center;
     font-weight: 100;
 }
+
+
+.intro-p {
+text-align: left;
+font-family: sans-serif;
+font-size: 30px;
+font-weight: 100;
+animation: fadeInAnimation ease 3s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+padding-left: 80px;
+padding-top: 50px;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.intro-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-images-div {
+    display: flex;
+    align-items: center;
+    
+}
+
+.social-image {
+    height: 50px;
+    width: 55px;
+    margin-left: 10px;
+    padding-right: 40px;
+}
+
+
+.featured-self {
+    display: flex;
+    align-items: center;
+    padding-top: 70px; 
+}
+
+#self-link {
+    flex: 1; 
+    font-family: sans-serif;
+font-size: 30px;
+font-weight: 500;
+animation: fadeInAnimation ease 3s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+padding-left: 50px;
+text-decoration: none;
+color:black;
+
+}
+
+#featured-self-p {
+    flex: 1; 
+    font-family: sans-serif;
+font-size: 30px;
+font-weight: 100;
+animation: fadeInAnimation ease 3s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+padding-left: 50px;
+
+}
+
+
+
+#personal-video {
+    flex: .8; 
+    margin-left: auto; 
+}
+
+.featured-visuals {
+    display: flex;
+    align-items: center;
+    padding-top: 70px; 
+}
+
+#visuals-link {
+    flex: 1; 
+    font-family: sans-serif;
+font-size: 30px;
+font-weight: 500;
+animation: fadeInAnimation ease 3s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+padding-left: 50px;
+text-decoration: none;
+color:black;
+}
+
+#featured-visuals-p {
+    flex: 1; 
+    font-family: sans-serif;
+font-size: 30px;
+font-weight: 100;
+animation: fadeInAnimation ease 3s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+padding-left: 50px;
+}
+
+.featured-thoughts {
+    display: flex;
+    align-items: center;
+    padding-top: 70px; 
+}
+
+#thoughts-link {
+    flex: 1; 
+    font-family: sans-serif;
+font-size: 30px;
+font-weight: 500;
+animation: fadeInAnimation ease 3s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+padding-left: 50px;
+text-decoration: none;
+color:black;
+}
+
+#featured-thoughts-p {
+    flex: 1; 
+    font-family: sans-serif;
+font-size: 30px;
+font-weight: 100;
+animation: fadeInAnimation ease 3s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+padding-left: 50px;
+}
+
+.featured-stills {
+    display: flex;
+    align-items: center;
+    padding-top: 70px; 
+}
+
+#stills-link {
+    flex: 1; 
+    font-family: sans-serif;
+font-size: 30px;
+font-weight: 500;
+animation: fadeInAnimation ease 3s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+padding-left: 50px;
+text-decoration: none;
+color:black;
+}
+
+#featured-stills-p {
+    flex: 1; 
+    font-family: sans-serif;
+font-size: 30px;
+font-weight: 100;
+animation: fadeInAnimation ease 3s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+padding-left: 50px;
+}
+
+
+
+
 
 
